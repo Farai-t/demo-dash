@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@components {
+    .styles{
+        position: absolute; 
+        inset: 0px auto auto 0px; 
+        margin: 0; 
+        transform: translate3d(0px, 9260.8px, 0px);
+    }
+}
+root {
+    --fg: #000;
+    --bg: #fff;
+  }
+
+  [data-theme="dark"] {
+    --fg: #fff;
+    --bg: #000;
+  }
